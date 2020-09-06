@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Presentations</title>
+
+<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Alejandro Espinosa-Rada</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="presentations.html">Presentations</a>
+</li>
+<li>
+  <a href="programming.html">Programming</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Presentations</h1>
+
+</div>
+
+
+<p>Espinosa, A.; Bargsted, M.; and Ortiz, F. (July, 2020). “Homofília en las Redes Personales: Estudio Longitudinal y Relacional”. Virtual Conference: Seminario ELSOC Cambio Social en Chile: Una perspectiva longitudinal. Centre for Social Conflict and Cohesion Studies (COES), Chile</p>
+<p>Espinosa, A. (July, 2020). “Multilevel Mechanisms for the Study of Scientific Networks: Mesolevel social forces in a (not so small) network for the stability of a national scientific field” Virtual Conference: XL Sunbelt Conference, International Network of Social Network Analysis (INSNA), National Centre for Scientific Research (CNRS); Sciences Po Paris, Paris, France.</p>
+<p>Espinosa, A. (July, 2020). “Co-evolución de una red científica: análisis multinivel de una disciplina a nivel nacional” Virtual Conference: Red Hispano-americana – REDIris – Revista REDES</p>
+<p>Espinosa, A. (September, 2019). “Micro-explanations for multilevel scientific networks: A stochastic actor-oriented model in a scientific discipline” Conference: 4th European Conference on Social Networks (EUSN 2019). Zürich, Switzerland.</p>
+<p>Espinosa, A. (July, 2019). “Micro-explanations for multilevel scientific networks: A stochastic actor-oriented model in a scientific discipline” Conference: 5th International Conference on Computational Social Science (IC2S2 2019). Amsterdam, The Netherlands.</p>
+<p>Espinosa, A. (June, 2019). “Co-evolution of a multilevel network in a national scientific discipline: A Stochastic Actor-Oriented Models for the study of scientific networks” Conference: XXXIX Sunbelt Conference, International Network of Social Network Analysis (INSNA), Université du Québec à Montréal, Montreal, Canada.</p>
+<p>Espinosa, A. (April, 2019). “A Multilevel Dynamic Approach in Scientific Networks” Conference: British Sociological Association Annual Conference 2019 (BSA), Glasgow Caledonian University, UK.</p>
+<p>Espinosa, A. (January, 2019). “Co-evolution of a multilevel network in a national scientific discipline: exploration of tripartite and multilevel mechanisms using stochastic actor-oriented models”. Labsgroups Seminars, Center for Research in Social Complexity (CICS), Universidad del Desarrollo, Chile.</p>
+<p>Espinosa, A. (December, 2018). “Dynamic networks in a national discipline: using Stochastic Actor-Oriented Models for the study of scientific networks”. X Chilean Congress of Sociology, Workshop: ‘Methodology and Epistemology in the Social Science’, Iquique, Chile.</p>
+<p>Espinosa, A. (December, 2018). “Personal networks and scientific recognition: relational strategies in a scientific community”. X Chilean Congress of Sociology, Workshop: ‘Sociology of Science, Technology and Innovation’, Iquique, Chile.</p>
+<p>Espinosa, A. (October, 2018). “Scientifics Networks in a National Discipline: A Multilevel Dynamic Network Approach.” The Social Networks Labs.’ Seminars, the Eidgenössische Technische Hochschule (ETH), Zürich, Switzerland</p>
+<p>Espinosa, A. (October, 2018). “A multilevel approach in the social network analysis: How micro-mechanisms can represent complex structures in dynamic scientific networks”. Sociology PGR Colloquium, the University of Manchester, Manchester, U.K.</p>
+<p>Espinosa, A. (June, 2018). “Scientific collaboration in a national discipline: Co-evolution of one-mode and bipartite networks”. XXXVIII Sunbelt Conference, International Network of Social Network Analysis (INSNA), the University of Utrecht, Utrecht, The Netherlands.</p>
+<p>Espinosa, A. (June, 2018). “Scientific networks in the south of the world”. The Place I Call Research: Localizing Sociological Inquiry, the University of Manchester, Manchester, U.K.</p>
+<p>Espinosa, A. (February, 2018). “Scientific collaboration in a national discipline: Co-evolution of one-mode and bipartite networks”. Thinking Chile, the University of Edinburgh, U.K.</p>
+<p>Espinosa, A. (May, 2017). “Prospection of the Astroinformatics Field for the Next Decade”. Workshop of SoCVis, Department of Engineering and Computer Sciences, Pontifical Catholic University of Chile, Santiago, Chile.</p>
+<p>Espinosa, A. (April, 2017). “Interlocking Networks of Corporate Directorships: Detection of Communities and Inferential Models for the characterization of Corporate Relationships”. Workshop, Faculty of Economy and Management, Desarrollo University, Santiago, Chile.</p>
+<p>Espinosa, A. (January, 2017). “Managing Complexity in the Chaos of Science: Social Network Analysis for the Medicine Based in ‘Evidence’”. IV Meeting of the Chilean Network of Science, Technology and Society, Workshop: ‘Science and Scientometrics’, Valdivia, Chile.</p>
+<p>Espinosa, A. (October, 2016). “Groups of Influence in Chilean Inter-locking Networks: Community Detections and Exponential Random Graph Models”. IX Chilean Congress of Sociology, Workshop: ‘Sociology of Economy’, Talca, Chile.</p>
+<p>Espinosa, A. (October, 2016). “The Production and Collaboration in the Scientific Recognition of Astronomy in Chile: Longitudinal Network Study of the Scientific Community, 1988-2013”. IX Chilean Congress of Sociology, Workshop: ‘Sociology of Science, Technology and Innovation’, Talca, Chile.</p>
+<p>Espinosa, A. (October, 2014). “Social Stratification in Chilean Astronomy: Matthew Effect in ISI-Paper Networks”. VIII Chilean Congress of Sociology, Workshop: ‘Sociology of Science, Technology and Innovation’, La Serena, Chile.</p>
+<p>Espinosa, A. (January, 2014). “Allocation of Scientists in the Atacama Large Millimeter/Submillimeter Array Astronomical Observatory”. First Meeting of the Chilean Network of Science, Technology and Society, Workshop: ‘Productivity and Appropriation of Science and Technology’, Santiago, Chile.</p>
+<p>Espinosa, A. (October, 2013). “Technical Performativity in Outdoor Team Training: Ethnographic Notes in Experience Center “Nuevos Vientos””. XXIX Latin American Congress of Sociology, Workshop: ‘Science and Technology’, Santiago, Chile.</p>
+<p>Espinosa, A. and Ortiz, F (September, 2013). “Private Jurisdictional Legitimation in the Transnational Regulatory Regime of FIFA”. XXIX Latin American Congress of Sociology, Workshop: ‘Sport, Leisure and Free Time’, Santiago, Chile.</p>
+<p>Espinosa, A. (October, 2012). “Inclusion and Exclusion in an Art Museum”. VII Chilean Congress of Sociology, Workshop: ‘Sociology of Art and Heritage Studies’, Pucón, Chile.</p>
+<p>Espinosa, A. (June, 2012). “Latin American Social Movement in the Horizon of World Society”. XXI Chilean Student Congress of Sociology, Workshop: ‘Social Movements, Politics and Citizen Participation in Latin America”, Valparaíso, Chile.</p>
+<p>Espinosa, A.; Moyano, C. and Ortiz, F. (May, 2012). “Exclusion and Inclusion in a Museum of Contemporary Art: Cultural Foundation Plaza Mulato Gil de Castro”. Seminar “Young Researchers”, Santiago, Chile.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

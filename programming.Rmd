@@ -1,0 +1,10 @@
+---
+title: "Programming"
+---
+
+- Contribution to [`Rsiena`](https://www.stats.ox.ac.uk/~snijders/siena/), implementation of new goodness of fit for tripartite multilevel networks, new effects, and translation of main codes into Spanish.
+
+- [`sna_notes`](https://github.com/anespinosa/sna_notes), notes of useful `R` codes for Social Network Science projects
+
+- `netmem`, a package of functions for the study of social networks using matrixes (*forthcoming*)
+

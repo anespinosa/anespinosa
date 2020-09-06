@@ -1,0 +1,22 @@
+name: "alejandro-espinosa-rada"
+navbar:
+  title: "Alejandro Espinosa-Rada"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Presentations"
+      href: presentations.html
+    - text: "Programming"
+      href: programming.html
+    - text: "Teaching"
+      href: teaching.html
+      
+output: 
+  html_document: 
+    theme: cosmo
+    highlight: textmate
+    include:
+     # after_body: footer.html
+    css: styles.css
