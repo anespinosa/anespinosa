@@ -1,0 +1,9 @@
+Package: anespinosa
+Date: 2020-09-02
+Version: 1
+Authors@R: c(
+      person(given = "Alejandro", family = "Espinosa-Rada", role = c("cre","aut"),
+      email = "alejandro.espinosa@manchester.ac.uk", comment = c(ORCID = "0000-0003-4177-1912"))
+      )
+Author: Alejandro Espinosa-Rada [cre, aut] <alejandro.espinosa@manchester.ac.uk>
+URL: https://www.research.manchester.ac.uk/portal/alejandro.espinosa.html
