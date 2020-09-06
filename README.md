@@ -4,4 +4,4 @@ My name is [Alejandro Espinosa-Rada](https://www.research.manchester.ac.uk/porta
 
 Main areas of interests: Social Network Analysis, Multilevel Networks, Modelling Social Networks, Sociology of Science and Knowledge, Computational Social Science, Longitudinal Networks
 
-You can also check [**Knitting Networks**](https://knittingnetworks.com), the podcast of the Social Network Analysis (*some chapters in Spanish and English*) hosted by [Francisca Ortiz](https://www.research.manchester.ac.uk/portal/francisca.ortiz.html) and myself.
+You can also check [Knitting Networks](https://knittingnetworks.com), the podcast of the Social Network Analysis (*some chapters in Spanish and English*) hosted by [Francisca Ortiz](https://www.research.manchester.ac.uk/portal/francisca.ortiz.html) and myself.
