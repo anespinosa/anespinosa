@@ -1,7 +1,0 @@
----
-title: "Alejandro Espinosa-Rada"
----
-
-PhD Student in Sociology at the University of Manchester and member of the [Mitchell Centre for Social Network Analysis](https://www.socialsciences.manchester.ac.uk/mitchell-centre/). I complete my master degree in sociology at the Pontifical Catholic University of Chile and received my bachelor degree from Alberto Hurtado University. Before arriving at Manchester in 2017, I worked as an adjunct assistant professor at the Pontifical Catholic University of Chile, Alberto Hurtado University and the University of Santiago, Chile. I was the co-founder and past editor of the academic journal [Contenido. Cultura y Ciencias Sociales](http://www.revistacontenido.com) and now I am the coordinator of *the Chilean Society for Social Network Science* ([CHISOCNET](www.chisocnet.org)).
-
-Main areas of interests: Sociological Study of Scientific Networks, Statistical Methods for Social Networks, Computational Social Sciences, and Dynamic and Multilevel Networks.
