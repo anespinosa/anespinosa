@@ -8,4 +8,4 @@ You can also check [Knitting Networks](https://anchor.fm/tejiendoredes), the pod
 
 ## Other projects:
 
-- Co-PI at the *Social Networks and Socio-ecological Sustainability Project* [(SNA-SES)](https://sna-ssla.netlify.app/subpages/about/). Project funded by FONDECYT program N°1220560
+- Co-PI at the *Social Networks and Socio-ecological Sustainability Project* [(SNA-SES)](https://sna-ssla.netlify.app/subpages/). Project funded by FONDECYT program N°1220560
