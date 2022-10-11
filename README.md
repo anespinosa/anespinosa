@@ -12,4 +12,4 @@ You can also check [Knitting Networks](https://anchor.fm/tejiendoredes), the pod
 
 ## Academic Tree:
 
-<img src="academic_tree.png" align="center" width="500px"/>
+
